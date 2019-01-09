@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Greet from 'Greet.js';
+import Greet from './Greet';
 
 class App extends Component {
 	constructor(props) {
@@ -8,9 +8,11 @@ class App extends Component {
 
 	render() {
 		return (
-			<Greet text="henlo"/>
-			<Greet text="goodbye"/>
-			<Greet text="whee"/>
+			<div id="app">
+				<Greet text="henlo"/>
+				<Greet text="goodbye"/>
+				<Greet text="whee"/>
+			</div>
 		);
 	}
 }

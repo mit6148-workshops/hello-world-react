@@ -7,7 +7,7 @@ class Greet extends Component {
 
 	render() {
 		return (
-			<div>this.props.text</div>
+			<div>{ this.props.text }</div>
 		);
 	}
 }
