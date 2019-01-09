@@ -1,0 +1,23 @@
+{
+  "name": "hello-world-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mit6148-workshops/hello-world-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mit6148-workshops/hello-world-react/issues"
+  },
+  "homepage": "https://github.com/mit6148-workshops/hello-world-react#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2"
+  }
+}
