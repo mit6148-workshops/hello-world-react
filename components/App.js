@@ -12,7 +12,11 @@ class App extends Component {
 
 	render() {
 		return (
-
+			<div id="app">
+				<Greet text="henlo"/>
+				<Greet text="goodbye"/>
+				<Greet text="whee"/>
+			</div>
 		);
 	}
 }
