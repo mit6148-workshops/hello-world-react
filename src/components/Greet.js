@@ -9,7 +9,7 @@ class Greet extends Component {
 		console.log(this.props.isExciting);
 		return (
 			<div>
-				{this.props.text}{this.props.isExciting ? '!' : ''}
+				{this.props.text}{this.props.isExciting ? '!!!' : ''}
 			</div>
 		);
 	}
