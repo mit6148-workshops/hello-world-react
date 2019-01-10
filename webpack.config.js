@@ -1,15 +1,15 @@
 const path = require('path');
-const entryFile = path.resolve(__dirname, 'index.js');
-const outputDir = path.resolve(__dirname, 'dist');
+const entryFile = path.resolve(__dirname, 'src', 'index.js');
+// const outputDir = path.resolve(__dirname, 'dist');
 
 const webpack = require('webpack');
 
 module.exports = {
   entry: [entryFile],
   output: {
-    publicPath:"/",
+    publicPath: '/',
     filename: 'bundle.js',
-    path: outputDir
+    path: __dirname + '/dist'
   },
   module: {
     rules: [
@@ -31,5 +31,12 @@ module.exports = {
         ]
       }
     ]
+  },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin()
+  ],
+  devServer: {
+    contentBase: './dist',
+    hot: true
   }
 };
