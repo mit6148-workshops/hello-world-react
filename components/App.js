@@ -11,11 +11,11 @@ class App extends Component {
 	}
 
 	componentDidMount() {
-		setTimeout(() => {
+		setInterval(() => {
 			this.setState({
 			isExciting: !this.state.isExciting
 			})
-		}, 4000);
+		}, 3000);
 	}
 
 	render() {

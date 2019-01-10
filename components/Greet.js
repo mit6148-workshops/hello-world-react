@@ -6,6 +6,7 @@ class Greet extends Component {
 	}
 
 	render() {
+		console.log(this.props.isExciting);
 		return (
 			<div>
 				{this.props.text}{this.props.isExciting ? '!' : ''}
