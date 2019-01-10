@@ -1,5 +1,5 @@
 const path = require('path');
-const entryFile = path.resolve(__dirname, 'index.js');
+const entryFile = path.resolve(__dirname, 'src', 'index.js');
 const outputDir = path.resolve(__dirname, 'dist');
 
 const webpack = require('webpack');
@@ -31,5 +31,8 @@ module.exports = {
         ]
       }
     ]
+  },
+  devServer: {
+    contentBase: './dist'
   }
 };

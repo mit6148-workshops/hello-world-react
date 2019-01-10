@@ -7,7 +7,7 @@ class Greet extends Component {
 
 	render() {
 		return (
-			
+			null
 		);
 	}
 }
