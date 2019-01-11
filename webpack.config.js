@@ -5,6 +5,7 @@ const outputDir = path.resolve(__dirname, 'dist');
 const webpack = require('webpack');
 
 module.exports = {
+  mode: 'development',
   entry: [entryFile],
   output: {
     publicPath:"/",
