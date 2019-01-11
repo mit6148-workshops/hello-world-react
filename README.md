@@ -1,6 +1,6 @@
 # hello-world-react
 
-## getting started
+## Before You Start
 
 download all dependencies including dev
 
@@ -8,7 +8,7 @@ download all dependencies including dev
 $ npm install
 ```
 
-## building and running
+## Build and Run
 
 ```
 $ npx webpack
