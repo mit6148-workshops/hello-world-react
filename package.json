@@ -19,7 +19,8 @@
   "homepage": "https://github.com/mit6148-workshops/hello-world-react#readme",
   "dependencies": {
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "webpack-dev-server": "^3.1.14"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.0.0",
