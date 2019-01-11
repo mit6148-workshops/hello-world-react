@@ -13,7 +13,7 @@ class App extends Component {
 	componentDidMount() {
 		setInterval(() => {
 			this.setState({
-			isExciting: !this.state.isExciting
+				isExciting: !this.state.isExciting
 			})
 		}, 3000);
 	}
