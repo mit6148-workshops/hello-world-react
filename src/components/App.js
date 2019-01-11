@@ -11,11 +11,7 @@ class App extends Component {
 	}
 
 	componentDidMount() {
-		setInterval(() => {
-			this.setState({
-				isExciting: !this.state.isExciting
-			})
-		}, 3000);
+		document.addEventListener('keydown', this.onKeyDown);
 	}
 
 	render() {
@@ -27,6 +23,14 @@ class App extends Component {
 			</div>
 		);
 	}
+
+    onKeyDown = (event) => {
+    	if (event.key === 'd') {
+    		this.setState({
+    			isExciting: !this.state.isExciting
+    		})
+    	}
+    }
 }
 
 export default App;
