@@ -5,6 +5,7 @@ const entryFile = path.resolve(__dirname, 'src', 'index.js');
 const webpack = require('webpack');
 
 module.exports = {
+  mode: 'development',
   entry: [entryFile],
   output: {
     publicPath: '/',
