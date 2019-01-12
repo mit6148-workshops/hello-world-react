@@ -19,7 +19,7 @@ class App extends Component {
 			<div id="app">
 				<Greet text="henlo" isExciting={this.state.isExciting}/>
 				<Greet text="goodbye" isExciting={this.state.isExciting}/>
-				<Greet text="whee" isExciting={this.state.isExciting}/>
+				<Greet text="quack" isExciting={this.state.isExciting}/>
 			</div>
 		);
 	}
