@@ -15,7 +15,7 @@ class App extends Component {
 			<div id="app">
 				<Greet text="henlo"/>
 				<Greet text="goodbye"/>
-				<Greet text="whee"/>
+				<Greet text="quack"/>
 			</div>
 		);
 	}
