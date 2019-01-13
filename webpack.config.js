@@ -1,6 +1,6 @@
 const path = require('path');
 const entryFile = path.resolve(__dirname, 'src', 'index.js');
-// const outputDir = path.resolve(__dirname, 'dist');
+const outputDir = path.resolve(__dirname, 'dist');
 
 const webpack = require('webpack');
 
@@ -10,7 +10,7 @@ module.exports = {
   output: {
     publicPath: '/',
     filename: 'bundle.js',
-    path: __dirname + '/dist'
+    path: outputDir
   },
   module: {
     rules: [
