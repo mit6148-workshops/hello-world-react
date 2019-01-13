@@ -8,7 +8,7 @@ module.exports = {
   mode: 'development',
   entry: [entryFile],
   output: {
-    publicPath:"/",
+    publicPath: '/',
     filename: 'bundle.js',
     path: outputDir
   },
@@ -33,7 +33,11 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+    new webpack.HotModuleReplacementPlugin()
+  ],
   devServer: {
-    contentBase: './dist'
+    contentBase: './dist',
+    hot: true
   }
 };
