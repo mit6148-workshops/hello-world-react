@@ -6,11 +6,15 @@ class Greet extends Component {
 	}
 
 	render() {
-		return (
-			<div>
-				{this.props.text}
-			</div>
-		);
+		if (/** FILL IN CONDITION HERE **/) {
+			return (
+				/** FILL IN YOUR CODE HERE **/
+			);
+		} else {
+			return (
+				/** FILL IN YOUR CODE HERE **/
+			);
+		}
 	}
 }
 
