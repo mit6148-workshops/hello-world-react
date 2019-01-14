@@ -4,6 +4,9 @@ import Greet from './Greet';
 class App extends Component {
 	constructor(props) {
 		super(props)
+		this.state = {
+			isExcited: true
+		}
 	}
 
 	componentDidMount() {
