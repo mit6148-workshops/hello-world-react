@@ -8,7 +8,7 @@ class Greet extends Component {
 	render() {
 		return (
 			<div>
-				{this.props.text + (this.props.isExciting ? '!!!' : '')}
+				{this.props.text + (this.props.isExcited ? '!!!' : '')}
 			</div>
 		);
 	}

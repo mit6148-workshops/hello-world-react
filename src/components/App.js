@@ -6,7 +6,7 @@ class App extends Component {
 		super(props)
 
 		this.state = {
-            isExciting: true
+            isExcited: true
         };
 	}
 
@@ -17,9 +17,9 @@ class App extends Component {
 	render() {
 		return (
 			<div id="app">
-				<Greet text="henlo" isExciting={this.state.isExciting}/>
-				<Greet text="goodbye" isExciting={this.state.isExciting}/>
-				<Greet text="quack" isExciting={this.state.isExciting}/>
+				<Greet text="henlo" isExcited={this.state.isExcited}/>
+				<Greet text="goodbye" isExcited={this.state.isExcited}/>
+				<Greet text="quack" isExcited={this.state.isExcited}/>
 			</div>
 		);
 	}
@@ -27,7 +27,7 @@ class App extends Component {
     onKeyDown = (event) => {
     	if (event.key === 'd') {
     		this.setState({
-    			isExciting: !this.state.isExciting
+    			isExcited: !this.state.isExcited
     		})
     	}
     }
